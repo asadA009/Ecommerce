@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from .models import product
 from .models import Contact
-from math import ceil
+from math import ceil,prod
 
 def index(request):
    # products=product.objects.all()
